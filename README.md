@@ -8,10 +8,15 @@ We use the Free Music Archive (FMA) dataset, specifically the small version cont
 We attempt to build and train several different CNN models to classify audio tracks into one of 8 different genres:  Hip-Hop, Rock, Pop, Folk, Experimental, International, Electronic, and Instrumental. The three different architectures are as follows:
 
 1. 1-Dimensional CNN using raw audio signals as input
+ 
 ![1-Dimensional model architecture](https://github.com/nortizde/Music-Genre-Classification/blob/main/figures/oneDmodel.png)
-3. 2-Dimensional CNN using Mel spectrogram representation of audio as input
+
+4. 2-Dimensional CNN using Mel spectrogram representation of audio as input
+
 ![2-Dimensional model architecture](https://github.com/nortizde/Music-Genre-Classification/blob/main/figures/twoDmodel.png)
-5. Combined CNN model that uses both 1-D audio and 2-D Mel spectrogram as input
+
+6. Combined CNN model that uses both 1-D audio and 2-D Mel spectrogram as input
+
 ![Combined model architecture](https://github.com/nortizde/Music-Genre-Classification/blob/main/figures/combinedModel.png)
 
 ## Results
